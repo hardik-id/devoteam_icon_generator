@@ -6,7 +6,7 @@ from devoteam_icon_generator.crew import DevoteamIconGeneratorCrew
 def run():
     # Replace with your inputs, it will automatically interpolate any tasks and agents information
     inputs = {
-        'topic': 'AI LLMs'
+        'concept': 'IT Support'
     }
     DevoteamIconGeneratorCrew().crew().kickoff(inputs=inputs)
 

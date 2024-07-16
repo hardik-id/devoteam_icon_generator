@@ -7,6 +7,12 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
 crewai = { extras = ["tools"], version = "^0.35.8" }
+diffusers = "^0.29.2"
+accelerate = "^0.32.1"
+transformers = "^4.42.4"
+torch = "^2.3.1"
+torchvision = "^0.18.1"
+torchaudio = "^2.3.1"
 
 [tool.poetry.scripts]
 devoteam_icon_generator = "devoteam_icon_generator.main:run"
